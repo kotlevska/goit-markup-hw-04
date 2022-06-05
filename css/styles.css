@@ -408,9 +408,10 @@ img {
 }
 
 /* -----------------------footer------------------------------ */
-/* .footer-nav {
+.footer-nav {
     box-sizing: border-box;
-} */
+    margin-left: 215px;
+}
 
 .footer {
     background: var(--footer-color);
@@ -418,7 +419,7 @@ img {
     padding-bottom: 60px;
 }
 
-.footer .container {
+.adress-group {
     display: flex;
     align-items: baseline;
 }
@@ -497,6 +498,7 @@ img {
     justify-content: center;
     align-items: center;
 }
+
 .connect-icon {
     fill: var(--primary-white-color);
 }
